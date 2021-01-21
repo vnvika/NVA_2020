@@ -1,0 +1,33 @@
+﻿Сборка начата 06.12.2020 23:38:06.
+     1>Проект "E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVAlib\NVAlib.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\NVAlib.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         D:\Visual Studio\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS- /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"Debug\NVAlib.pch" /Fo"Debug\\" /Fd"Debug\NVAlib.pdb" /Gd /TP /analyze- /FC /errorReport:prompt NVAlib.cpp
+         cl: командная строка warning D9025: переопределение "/sdl" на "/GS-"
+         NVAlib.cpp
+     1>E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVAlib\NVAlib.cpp(10,13): warning C4244:  return: преобразование "double" в "int", возможна потеря данных
+     1>E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVAlib\NVAlib.cpp(18,13): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       Lib:
+         D:\Visual Studio\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\Lib.exe /OUT:"E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVA_2020\Debug\NVAlib.lib" /NOLOGO /MACHINE:X86 Debug\NVAlib.obj
+         Debug\pch.obj
+         NVAlib.vcxproj -> E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVA_2020\Debug\NVAlib.lib
+       CopyFilesToOutputDirectory:
+         Копирование файла из "E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVAlib\Debug\NVAlib.pdb" в "E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVA_2020\Debug\NVAlib.pdb".
+       FinalizeBuildStatus:
+         Файл "Debug\NVAlib.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\NVAlib.tlog\NVAlib.lastbuildstate".
+     1>Сборка проекта "E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVAlib\NVAlib.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVAlib\NVAlib.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVAlib\NVAlib.cpp(10,13): warning C4244:  return: преобразование "double" в "int", возможна потеря данных
+         E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVAlib\NVAlib.cpp(18,13): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:00.87

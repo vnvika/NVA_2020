@@ -1,0 +1,35 @@
+integer function fact(integer N)			  $counting the factorial$
+{
+	type integer newN = N - 1;
+	type string str = "test";
+		is N&0
+			true [return 1;]
+			false
+			[
+				N = N * fact(newN);
+				return N;
+			]
+return 1;
+}
+
+integer function Inlength(integer num)			$counting the length of the factorial$
+{
+	type integer len = 0;
+	type integer tempNum = num;
+	type integer degree = 1;
+		while tempNum ! 0
+			do
+			[
+				tempNum = num / pow(10,degree);
+				degree = degree + 1;
+			]
+	len = degree - 1;
+return len;
+}
+
+main{
+	type integer factorial = fact(15);
+		write "factorial: ";
+		writeline factorial;
+}
+

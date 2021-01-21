@@ -1,0 +1,21 @@
+﻿Сборка начата 21.12.2020 20:24:38.
+     1>Проект "E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVAasm\NVAasm.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\NVAasm.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling asm.asm...
+         cmd.exe /C "C:\Users\User\AppData\Local\Temp\tmp2718a18f4d64464b9c3d83c25b416abd.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\asm.obj" /W3 /errorReport:prompt  /Taasm.asm
+       Link:
+         D:\Visual Studio\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVA_2020\Debug\NVAasm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVA_2020\Debug\NVAasm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVA_2020\Debug\NVAasm.lib" /MACHINE:X86 Debug\asm.obj
+         NVAasm.vcxproj -> E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVA_2020\Debug\NVAasm.exe
+       FinalizeBuildStatus:
+         Файл "Debug\NVAasm.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\NVAasm.tlog\NVAasm.lastbuildstate".
+     1>Сборка проекта "E:\ТРЕТИЙ СЕМЕСТР С ЧИСТОГО ЛИСТА\Курсовой проект Новик Виктории — оригинал\NVAasm\NVAasm.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:03.23

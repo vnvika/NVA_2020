@@ -1,0 +1,30 @@
+
+integer function abs(integer a)
+{
+		a++2;
+		is a > 3
+		true [a=10; 
+		return a;]
+	return 0;
+}
+void function writeInfo(integer i) 
+{
+		write "i = ";
+		writeline i;
+	return;
+}
+main
+{
+	type integer a = random(5);
+
+	write "a = ";
+	writeline a;
+
+	type integer i = (-a)+(1+abs(1))*3;
+	while i > 0
+		do
+		[
+		writeInfo(i);
+		i--1;
+		]
+}
